@@ -1,6 +1,6 @@
 # USDJPY 15m OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-616_212_rows-blue)](https://getdata.finance/datasets/usdjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdjpy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-616_478_rows-blue)](https://getdata.finance/datasets/usdjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdjpy)
 
 ### -> [**Download the full USDJPY dataset on getdata.finance**](https://getdata.finance/datasets/usdjpy)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 15m OHLCV** for **US Dollar / Japanese Yen** (Forex)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdjpy) · **616,212** `15m` rows in the full archive
+- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdjpy) · **616,478** `15m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `USDJPY_15m.csv` (12,510 rows, `2026-03-10` -> `2026-09-09`, 1.22 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdjpy)** — **616,212** `15m` rows (full `1m`: 9,184,987), **11 timeframes**, `2001-11-28` -> `2026-09-09`.
+> **Sample on GitHub** · `USDJPY_15m.csv` (12,649 rows, `2026-03-12` -> `2026-09-11`, 1.23 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdjpy)** — **616,478** `15m` rows (full `1m`: 9,184,987), **11 timeframes**, `2001-11-28` -> `2026-09-11`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | US Dollar / Japanese Yen · Forex | US Dollar / Japanese Yen · Forex |
 | Timeframes | `15m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 15m rows | 12,510 | **616,212** |
-| Size | 1.22 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usdjpy) |
-| Period | `2026-03-10` -> `2026-09-09` | `2001-11-28` -> `2026-09-09` |
+| 15m rows | 12,649 | **616,478** |
+| Size | 1.23 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usdjpy) |
+| Period | `2026-03-12` -> `2026-09-11` | `2001-11-28` -> `2026-09-11` |
 | File | `USDJPY_15m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/usdjpy) |
 | Coverage report | — | [USDJPY coverage](https://getdata.finance/coverage/usdjpy) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`USDJPY_15m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-10T18:45:00+00:00 | 159.039 | 159.055 | 158.909 | 158.978 | 3989 |
-| 2026-03-10T19:00:00+00:00 | 158.978 | 159.047 | 158.968 | 158.981 | 3407 |
-| 2026-03-10T19:15:00+00:00 | 158.981 | 159.096 | 158.958 | 159.091 | 3127 |
-| 2026-03-10T19:30:00+00:00 | 159.091 | 159.235 | 159.09 | 159.171 | 5802 |
-| 2026-03-10T19:45:00+00:00 | 159.171 | 159.232 | 159.134 | 159.142 | 4008 |
+| 2026-03-12T02:30:00+00:00 | 160.115 | 160.235 | 160.103 | 160.208 | 2662 |
+| 2026-03-12T02:45:00+00:00 | 160.208 | 160.22 | 160.175 | 160.186 | 2034 |
+| 2026-03-12T03:00:00+00:00 | 160.186 | 160.192 | 160.121 | 160.157 | 1925 |
+| 2026-03-12T03:15:00+00:00 | 160.157 | 160.191 | 160.128 | 160.155 | 1526 |
+| 2026-03-12T03:30:00+00:00 | 160.155 | 160.188 | 160.109 | 160.115 | 1232 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-09T01:00:00+00:00 | 153.571 | 153.752 | 153.569 | 153.724 | 6429 |
-| 2026-09-09T01:15:00+00:00 | 153.724 | 153.831 | 153.647 | 153.803 | 4584 |
-| 2026-09-09T01:30:00+00:00 | 153.803 | 153.81 | 153.64 | 153.705 | 5047 |
-| 2026-09-09T01:45:00+00:00 | 153.705 | 153.707 | 153.543 | 153.552 | 4976 |
-| 2026-09-09T02:00:00+00:00 | 153.552 | 153.56 | 153.542 | 153.56 | 172 |
+| 2026-09-11T19:45:00+00:00 | 153.71 | 153.732 | 153.686 | 153.692 | 1782 |
+| 2026-09-11T20:00:00+00:00 | 153.692 | 153.694 | 153.667 | 153.678 | 862 |
+| 2026-09-11T20:15:00+00:00 | 153.678 | 153.691 | 153.662 | 153.677 | 412 |
+| 2026-09-11T20:30:00+00:00 | 153.677 | 153.749 | 153.677 | 153.734 | 503 |
+| 2026-09-11T20:45:00+00:00 | 153.734 | 153.736 | 153.444 | 153.468 | 1886 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **USDJPY** archive on **[getdata.finance](https://getdata.finance/datasets/usdjpy)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **616,212** rows at `15m`, plus all other timeframes in the same ZIP.
+The complete **USDJPY** archive on **[getdata.finance](https://getdata.finance/datasets/usdjpy)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **616,478** rows at `15m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full USDJPY dataset on getdata.finance](https://getdata.finance/datasets/usdjpy)**
 
